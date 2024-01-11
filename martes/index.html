@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scaffolding a New Company</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        button {
+            background-color: #007bff;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Scaffolding a New Company</h1>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Join us with the lastest blockchain innovations</h2>
+            <p>Scaffolding a New Company: Join us with the lastest blockchain innovations Scaffolding a New Company: Join us with the lastest blockchain innovations Scaffolding a New Company: Join us with the lastest blockchain innovations</p>
+            <button onclick="showCompanyInfo()">Show Company Info</button>
+            <p id="companyInfo" style="display: none;">Our Company: ABC &amp; DEF, Blockchain Specialists</p>
+        </div>
+    </main>
+    <script>
+        function showCompanyInfo() {
+            var companyInfo = document.getElementById("companyInfo");
+            companyInfo.style.display = "block";
+        }
+    </script>
+</body>
+</html>
