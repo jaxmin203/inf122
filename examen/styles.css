@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+#facebook-icon {
+    background: url('https://img.icons8.com/ios/24/000000/facebook-new.png');
+}
+
+#twitter-icon {
+    background: url('https://img.icons8.com/ios/24/000000/twitter.png');
+}
+
+#linkedin-icon {
+    background: url('https://img.icons8.com/ios/24/000000/linkedin.png');
+}
